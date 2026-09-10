@@ -1,0 +1,14 @@
+[
+  {
+    "affected_parent_road_ids": [
+      "R00037_00158"
+    ],
+    "effect_end_s": 1693,
+    "effect_start_s": 1453,
+    "event_id": "episode_008-EV000",
+    "event_type": "closure",
+    "generation_time_s": 0,
+    "reveal_time_s": 1393,
+    "severity": 0.7620446321924087
+  }
+]

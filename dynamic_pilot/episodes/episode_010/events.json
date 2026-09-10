@@ -1,0 +1,14 @@
+[
+  {
+    "affected_parent_road_ids": [
+      "X00072"
+    ],
+    "effect_end_s": 695,
+    "effect_start_s": 455,
+    "event_id": "episode_010-EV000",
+    "event_type": "incident",
+    "generation_time_s": 0,
+    "reveal_time_s": 395,
+    "severity": 0.7660586930167577
+  }
+]

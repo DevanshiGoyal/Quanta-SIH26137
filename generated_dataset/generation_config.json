@@ -1,8 +1,8 @@
 {
-  "customer_count": 150,
-  "road_junction_count": 225,
+  "customer_count": 120,
+  "road_junction_count": 196,
   "extent_m": 8000.0,
-  "topology_family": "grid",
+  "topology_family": "hybrid",
   "grid_rows": 14,
   "grid_cols": 14,
   "jitter_fraction": 0.0,
@@ -18,6 +18,6 @@
   "minimum_road_segment_m": 30.0,
   "demand_min": 1,
   "demand_max": 8,
-  "seed": 26137,
+  "seed": 42,
   "dataset_split": "train"
 }

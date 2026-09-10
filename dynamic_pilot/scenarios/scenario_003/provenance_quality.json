@@ -1,0 +1,75 @@
+{
+  "source_name": "DYNAMIC-CVRP-120-3069",
+  "source_checksum": "",
+  "distance_convention": "EUCLIDEAN_2D_SYNTHETIC_METRES",
+  "customer_count": 120,
+  "road_node_count": 317,
+  "road_edge_count": 1887,
+  "total_customer_demand": 496.0,
+  "fleet_vehicle_count": 21,
+  "fleet_capacity_units": 630.0,
+  "disconnected_nodes": [],
+  "unreachable_requests": [],
+  "reference_schedule_feasible": true,
+  "one_way_physical_road_fraction": 0.06728538283062645,
+  "average_physical_degree": 6.201892744479495,
+  "degree_histogram": {
+    "2": 121,
+    "8": 91,
+    "9": 68,
+    "10": 25,
+    "11": 10,
+    "12": 2
+  },
+  "street_bearing_histogram_45deg": {
+    "0": 475,
+    "45": 468,
+    "90": 486,
+    "135": 458
+  },
+  "edge_length_quantiles_m": {
+    "p0": 32.012581825757984,
+    "p25": 418.8814301106995,
+    "p50": 619.7909659280798,
+    "p75": 779.5531420845103,
+    "p100": 1406.8209996446847
+  },
+  "signal_count": 0,
+  "customer_snap_distance_quantiles_m": {
+    "p0": 0.17739060614548063,
+    "p25": 12.590948324523904,
+    "p50": 27.432071322265926,
+    "p75": 58.93657066541669,
+    "p100": 365.1686677923159
+  },
+  "shortest_path_euclidean_detour_quantiles": {
+    "p0": 0.9999999999999991,
+    "p25": 1.0516329018630364,
+    "p50": 1.0857986716198778,
+    "p75": 1.1412750123667799,
+    "p100": 2.7568950314644023
+  },
+  "rush_offpeak_travel_time_ratio": null,
+  "traffic_autocorrelation": null,
+  "incident_recovery_duration_s": null,
+  "traffic_metrics_status": "generated from SUMO episodes in later steps",
+  "generator_version": "step4-procedural-city-v1.0",
+  "dataset_split": "train",
+  "configuration_version": "step4-procedural-city-v1.0",
+  "parent_instance_id": null,
+  "generation_mode": "fully_dynamic_synthetic",
+  "seed": 3069,
+  "quality_checks": {
+    "unique_request_ids": true,
+    "unique_edge_ids": true,
+    "all_snap_distances_within_limit": true,
+    "all_demands_positive": true,
+    "all_windows_valid": true,
+    "reference_schedule_feasible": true,
+    "road_graph_connected": true,
+    "requests_reachable": true,
+    "minimum_edge_length_respected": true,
+    "detour_ratio_physical": true,
+    "demand_within_configured_range": true
+  }
+}
