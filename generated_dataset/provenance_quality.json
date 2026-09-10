@@ -1,50 +1,51 @@
 {
-  "source_name": "DYNAMIC-CVRP-150-26137",
+  "source_name": "DYNAMIC-CVRP-120-42",
   "source_checksum": "",
   "distance_convention": "EUCLIDEAN_2D_SYNTHETIC_METRES",
-  "customer_count": 150,
-  "road_node_count": 367,
-  "road_edge_count": 1050,
-  "total_customer_demand": 630.0,
-  "fleet_vehicle_count": 26,
-  "fleet_capacity_units": 780.0,
+  "customer_count": 120,
+  "road_node_count": 311,
+  "road_edge_count": 893,
+  "total_customer_demand": 496.0,
+  "fleet_vehicle_count": 21,
+  "fleet_capacity_units": 630.0,
   "disconnected_nodes": [],
   "unreachable_requests": [],
   "reference_schedule_feasible": true,
-  "one_way_physical_road_fraction": 0.12380952380952381,
-  "average_physical_degree": 3.0626702997275204,
+  "one_way_physical_road_fraction": 0.0975609756097561,
+  "average_physical_degree": 3.112540192926045,
   "degree_histogram": {
-    "2": 146,
-    "3": 52,
-    "4": 169
+    "2": 119,
+    "3": 45,
+    "4": 140,
+    "5": 7
   },
   "street_bearing_histogram_45deg": {
-    "0": 527,
-    "45": 0,
-    "90": 523,
-    "135": 0
+    "0": 438,
+    "45": 12,
+    "90": 423,
+    "135": 20
   },
   "edge_length_quantiles_m": {
-    "p0": 39.49977368509552,
-    "p25": 249.38699496223805,
-    "p50": 515.3472089244244,
-    "p75": 519.0685648770859,
-    "p100": 519.0685648770868
+    "p0": 35.05919535397787,
+    "p25": 272.67035063450476,
+    "p50": 456.38359564768353,
+    "p75": 554.1603267312203,
+    "p100": 789.2334489119261
   },
-  "signal_count": 17,
+  "signal_count": 14,
   "customer_snap_distance_quantiles_m": {
-    "p0": 0.0,
-    "p25": 24.727967496804126,
-    "p50": 65.20330701057901,
-    "p75": 113.16317942022488,
-    "p100": 240.51618895237266
+    "p0": 1.984861656898829,
+    "p25": 33.613537457798365,
+    "p50": 72.90012453437713,
+    "p75": 117.79602491502565,
+    "p100": 257.4054159366324
   },
   "shortest_path_euclidean_detour_quantiles": {
     "p0": 0.9999999999999999,
-    "p25": 1.3387914579277038,
-    "p50": 1.388067425352121,
-    "p75": 1.4098253105405298,
-    "p100": 2.06183722377303
+    "p25": 1.329744233964962,
+    "p50": 1.3776772847988878,
+    "p75": 1.4074400852692643,
+    "p100": 2.4326727900421723
   },
   "rush_offpeak_travel_time_ratio": null,
   "traffic_autocorrelation": null,
@@ -55,7 +56,7 @@
   "configuration_version": "step4-procedural-city-v1.0",
   "parent_instance_id": null,
   "generation_mode": "fully_dynamic_synthetic",
-  "seed": 26137,
+  "seed": 42,
   "quality_checks": {
     "unique_request_ids": true,
     "unique_edge_ids": true,

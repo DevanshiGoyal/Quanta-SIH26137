@@ -1,0 +1,152 @@
+{
+  "backend": "synthetic_field_v1",
+  "dataset_version": "dynamic-pilot-v1",
+  "episode_count": 12,
+  "episodes": [
+    {
+      "backend": "synthetic_field_v1",
+      "episode_id": "episode_000",
+      "episode_seed": 542,
+      "event_type": null,
+      "scenario_id": "dynamic-cvrp:120:42",
+      "scenario_seed": 42,
+      "split": "train",
+      "topology_family": "grid",
+      "traffic_regime": "normal"
+    },
+    {
+      "backend": "synthetic_field_v1",
+      "episode_id": "episode_001",
+      "episode_seed": 1551,
+      "event_type": "incident",
+      "scenario_id": "dynamic-cvrp:120:1051",
+      "scenario_seed": 1051,
+      "split": "train",
+      "topology_family": "grid",
+      "traffic_regime": "morning_peak"
+    },
+    {
+      "backend": "synthetic_field_v1",
+      "episode_id": "episode_002",
+      "episode_seed": 2560,
+      "event_type": "closure",
+      "scenario_id": "dynamic-cvrp:120:2060",
+      "scenario_seed": 2060,
+      "split": "validation",
+      "topology_family": "grid",
+      "traffic_regime": "evening_peak"
+    },
+    {
+      "backend": "synthetic_field_v1",
+      "episode_id": "episode_003",
+      "episode_seed": 3569,
+      "event_type": null,
+      "scenario_id": "dynamic-cvrp:120:3069",
+      "scenario_seed": 3069,
+      "split": "train",
+      "topology_family": "irregular",
+      "traffic_regime": "normal"
+    },
+    {
+      "backend": "synthetic_field_v1",
+      "episode_id": "episode_004",
+      "episode_seed": 4578,
+      "event_type": "incident",
+      "scenario_id": "dynamic-cvrp:120:4078",
+      "scenario_seed": 4078,
+      "split": "train",
+      "topology_family": "irregular",
+      "traffic_regime": "morning_peak"
+    },
+    {
+      "backend": "synthetic_field_v1",
+      "episode_id": "episode_005",
+      "episode_seed": 5587,
+      "event_type": "closure",
+      "scenario_id": "dynamic-cvrp:120:5087",
+      "scenario_seed": 5087,
+      "split": "validation",
+      "topology_family": "irregular",
+      "traffic_regime": "evening_peak"
+    },
+    {
+      "backend": "synthetic_field_v1",
+      "episode_id": "episode_006",
+      "episode_seed": 6596,
+      "event_type": null,
+      "scenario_id": "dynamic-cvrp:120:6096",
+      "scenario_seed": 6096,
+      "split": "test",
+      "topology_family": "radial",
+      "traffic_regime": "normal"
+    },
+    {
+      "backend": "synthetic_field_v1",
+      "episode_id": "episode_007",
+      "episode_seed": 7605,
+      "event_type": "incident",
+      "scenario_id": "dynamic-cvrp:120:7105",
+      "scenario_seed": 7105,
+      "split": "test",
+      "topology_family": "radial",
+      "traffic_regime": "morning_peak"
+    },
+    {
+      "backend": "synthetic_field_v1",
+      "episode_id": "episode_008",
+      "episode_seed": 8614,
+      "event_type": "closure",
+      "scenario_id": "dynamic-cvrp:120:8114",
+      "scenario_seed": 8114,
+      "split": "test",
+      "topology_family": "radial",
+      "traffic_regime": "evening_peak"
+    },
+    {
+      "backend": "synthetic_field_v1",
+      "episode_id": "episode_009",
+      "episode_seed": 9623,
+      "event_type": null,
+      "scenario_id": "dynamic-cvrp:120:9123",
+      "scenario_seed": 9123,
+      "split": "train",
+      "topology_family": "hybrid",
+      "traffic_regime": "normal"
+    },
+    {
+      "backend": "synthetic_field_v1",
+      "episode_id": "episode_010",
+      "episode_seed": 10632,
+      "event_type": "incident",
+      "scenario_id": "dynamic-cvrp:120:10132",
+      "scenario_seed": 10132,
+      "split": "train",
+      "topology_family": "hybrid",
+      "traffic_regime": "morning_peak"
+    },
+    {
+      "backend": "synthetic_field_v1",
+      "episode_id": "episode_011",
+      "episode_seed": 11641,
+      "event_type": "closure",
+      "scenario_id": "dynamic-cvrp:120:11141",
+      "scenario_seed": 11141,
+      "split": "validation",
+      "topology_family": "hybrid",
+      "traffic_regime": "evening_peak"
+    }
+  ],
+  "families": [
+    "grid",
+    "irregular",
+    "radial",
+    "hybrid"
+  ],
+  "note": "Replace synthetic edge-field truth with SUMO-derived episodes before final learned-model evaluation.",
+  "split_rule": "radial held out; evening-peak validation; remaining train",
+  "traffic_regimes": [
+    "normal",
+    "morning_peak",
+    "evening_peak"
+  ]
+}

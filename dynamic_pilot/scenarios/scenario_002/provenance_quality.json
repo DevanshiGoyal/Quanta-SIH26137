@@ -1,0 +1,72 @@
+{
+  "source_name": "DYNAMIC-CVRP-120-2060",
+  "source_checksum": "",
+  "distance_convention": "EUCLIDEAN_2D_SYNTHETIC_METRES",
+  "customer_count": 120,
+  "road_node_count": 315,
+  "road_edge_count": 928,
+  "total_customer_demand": 505.0,
+  "fleet_vehicle_count": 21,
+  "fleet_capacity_units": 630.0,
+  "disconnected_nodes": [],
+  "unreachable_requests": [],
+  "reference_schedule_feasible": true,
+  "one_way_physical_road_fraction": 0.06043956043956044,
+  "average_physical_degree": 3.066666666666667,
+  "degree_histogram": {
+    "2": 123,
+    "3": 48,
+    "4": 144
+  },
+  "street_bearing_histogram_45deg": {
+    "0": 474,
+    "45": 0,
+    "90": 454,
+    "135": 0
+  },
+  "edge_length_quantiles_m": {
+    "p0": 31.80101254609872,
+    "p25": 263.02173301542825,
+    "p50": 552.1572846914441,
+    "p75": 569.8512590086739,
+    "p100": 569.8512590086757
+  },
+  "signal_count": 15,
+  "customer_snap_distance_quantiles_m": {
+    "p0": 0.0,
+    "p25": 34.095963194545334,
+    "p50": 83.53180063922423,
+    "p75": 132.23630269239266,
+    "p100": 234.16401717726876
+  },
+  "shortest_path_euclidean_detour_quantiles": {
+    "p0": 1.0,
+    "p25": 1.3374450881524895,
+    "p50": 1.3828421401982764,
+    "p75": 1.407552016359131,
+    "p100": 1.4140545893588423
+  },
+  "rush_offpeak_travel_time_ratio": null,
+  "traffic_autocorrelation": null,
+  "incident_recovery_duration_s": null,
+  "traffic_metrics_status": "generated from SUMO episodes in later steps",
+  "generator_version": "step4-procedural-city-v1.0",
+  "dataset_split": "validation",
+  "configuration_version": "step4-procedural-city-v1.0",
+  "parent_instance_id": null,
+  "generation_mode": "fully_dynamic_synthetic",
+  "seed": 2060,
+  "quality_checks": {
+    "unique_request_ids": true,
+    "unique_edge_ids": true,
+    "all_snap_distances_within_limit": true,
+    "all_demands_positive": true,
+    "all_windows_valid": true,
+    "reference_schedule_feasible": true,
+    "road_graph_connected": true,
+    "requests_reachable": true,
+    "minimum_edge_length_respected": true,
+    "detour_ratio_physical": true,
+    "demand_within_configured_range": true
+  }
+}

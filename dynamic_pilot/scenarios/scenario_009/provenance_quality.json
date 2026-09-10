@@ -1,0 +1,73 @@
+{
+  "source_name": "DYNAMIC-CVRP-120-9123",
+  "source_checksum": "",
+  "distance_convention": "EUCLIDEAN_2D_SYNTHETIC_METRES",
+  "customer_count": 120,
+  "road_node_count": 316,
+  "road_edge_count": 950,
+  "total_customer_demand": 496.0,
+  "fleet_vehicle_count": 21,
+  "fleet_capacity_units": 630.0,
+  "disconnected_nodes": [],
+  "unreachable_requests": [],
+  "reference_schedule_feasible": true,
+  "one_way_physical_road_fraction": 0.06451612903225806,
+  "average_physical_degree": 3.1139240506329116,
+  "degree_histogram": {
+    "2": 124,
+    "3": 43,
+    "4": 138,
+    "5": 11
+  },
+  "street_bearing_histogram_45deg": {
+    "0": 440,
+    "45": 27,
+    "90": 458,
+    "135": 25
+  },
+  "edge_length_quantiles_m": {
+    "p0": 42.45692848055569,
+    "p25": 271.54527708299304,
+    "p50": 457.58332796476066,
+    "p75": 561.4619594087007,
+    "p100": 831.3822616289265
+  },
+  "signal_count": 14,
+  "customer_snap_distance_quantiles_m": {
+    "p0": 1.9910071678719032,
+    "p25": 38.165432911311456,
+    "p50": 71.44479264583474,
+    "p75": 123.64032319474302,
+    "p100": 242.38160331462427
+  },
+  "shortest_path_euclidean_detour_quantiles": {
+    "p0": 0.9999999999999999,
+    "p25": 1.331235308498321,
+    "p50": 1.3697783729652435,
+    "p75": 1.4007459149935353,
+    "p100": 1.5362492564673575
+  },
+  "rush_offpeak_travel_time_ratio": null,
+  "traffic_autocorrelation": null,
+  "incident_recovery_duration_s": null,
+  "traffic_metrics_status": "generated from SUMO episodes in later steps",
+  "generator_version": "step4-procedural-city-v1.0",
+  "dataset_split": "train",
+  "configuration_version": "step4-procedural-city-v1.0",
+  "parent_instance_id": null,
+  "generation_mode": "fully_dynamic_synthetic",
+  "seed": 9123,
+  "quality_checks": {
+    "unique_request_ids": true,
+    "unique_edge_ids": true,
+    "all_snap_distances_within_limit": true,
+    "all_demands_positive": true,
+    "all_windows_valid": true,
+    "reference_schedule_feasible": true,
+    "road_graph_connected": true,
+    "requests_reachable": true,
+    "minimum_edge_length_respected": true,
+    "detour_ratio_physical": true,
+    "demand_within_configured_range": true
+  }
+}

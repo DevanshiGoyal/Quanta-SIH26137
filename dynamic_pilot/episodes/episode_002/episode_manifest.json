@@ -1,0 +1,21 @@
+{
+  "backend": "synthetic_field_v1",
+  "causal_visibility": {
+    "future_effect_times_hidden": true,
+    "future_labels_hidden": true,
+    "hidden_events_in_observations": false
+  },
+  "episode_id": "episode_002",
+  "events": 1,
+  "graph_version": "dynamic-cvrp:120:2060:graph:1",
+  "regime": "evening_peak",
+  "scenario_id": "dynamic-cvrp:120:2060",
+  "schema_version": "dynamic-1.0",
+  "seed": 2560,
+  "target_kind": "synthetic_field_travel_time",
+  "time": {
+    "duration_s": 1800,
+    "interval_s": 60,
+    "warmup_s": 300
+  }
+}

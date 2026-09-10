@@ -1,0 +1,23 @@
+{
+  "customer_count": 120,
+  "road_junction_count": 196,
+  "extent_m": 8000.0,
+  "topology_family": "irregular",
+  "grid_rows": 14,
+  "grid_cols": 14,
+  "jitter_fraction": 0.0,
+  "one_way_fraction": 0.08,
+  "max_customer_snap_m": 500.0,
+  "window_profile": "medium",
+  "window_slack_s": 900.0,
+  "service_duration_s": 60.0,
+  "vehicle_capacity": 30.0,
+  "fleet_size": null,
+  "customer_spread": 0.86,
+  "cluster_strength": 0.62,
+  "minimum_road_segment_m": 30.0,
+  "demand_min": 1,
+  "demand_max": 8,
+  "seed": 3069,
+  "dataset_split": "train"
+}

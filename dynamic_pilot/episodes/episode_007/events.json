@@ -1,0 +1,14 @@
+[
+  {
+    "affected_parent_road_ids": [
+      "R00134_00163"
+    ],
+    "effect_end_s": 870,
+    "effect_start_s": 630,
+    "event_id": "episode_007-EV000",
+    "event_type": "incident",
+    "generation_time_s": 0,
+    "reveal_time_s": 570,
+    "severity": 0.8021148906937376
+  }
+]
