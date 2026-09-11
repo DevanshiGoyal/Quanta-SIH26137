@@ -1,0 +1,70 @@
+{
+  "source_name": "A-n34-k5",
+  "source_checksum": "393117f10a26d0e803a8206e7dd1157a67de2429d6b9fd2d60c070a98b7c73bb",
+  "distance_convention": "EUC_2D",
+  "customer_count": 33,
+  "road_node_count": 229,
+  "road_edge_count": 584,
+  "total_customer_demand": 460.0,
+  "fleet_vehicle_count": 5,
+  "fleet_capacity_units": 500.0,
+  "disconnected_nodes": [],
+  "unreachable_requests": [],
+  "reference_schedule_feasible": true,
+  "reference_schedule_evaluation": {
+    "feasible": true,
+    "objective_value": 255207.9731242357,
+    "total_distance_m": 236912.12928030113,
+    "total_travel_time_s": 18295.843843934563,
+    "total_waiting_time_s": 0.0,
+    "total_service_time_s": 1980.0,
+    "total_lateness_s": 0.0,
+    "errors": []
+  },
+  "one_way_physical_road_fraction": 0.127208480565371,
+  "average_physical_degree": 2.7598253275109172,
+  "degree_histogram": {
+    "1": 12,
+    "2": 90,
+    "3": 68,
+    "4": 59
+  },
+  "street_bearing_histogram_45deg": {
+    "0": 280,
+    "45": 2,
+    "90": 300,
+    "135": 2
+  },
+  "edge_length_quantiles_m": {
+    "p0": 47.89926994939274,
+    "p25": 470.15078828299033,
+    "p50": 564.6918951410696,
+    "p75": 618.9944323003785,
+    "p100": 813.4383399521932
+  },
+  "signal_count": 10,
+  "customer_snap_distance_quantiles_m": {
+    "p0": 0.0,
+    "p25": 40.41859732648995,
+    "p50": 73.03628682982632,
+    "p75": 133.9455528615832,
+    "p100": 317.3798393027221
+  },
+  "shortest_path_euclidean_detour_quantiles": {
+    "p0": 1.186759336568903,
+    "p25": 1.335742278126354,
+    "p50": 1.397419201796206,
+    "p75": 1.5016446137061354,
+    "p100": 3.11655680383056
+  },
+  "rush_offpeak_travel_time_ratio": null,
+  "traffic_autocorrelation": null,
+  "incident_recovery_duration_s": null,
+  "traffic_metrics_status": "generated from SUMO episodes in later steps",
+  "generator_version": "step4-road-generator-v1.1",
+  "dataset_split": "train",
+  "configuration_version": "step4-v1.0",
+  "parent_instance_id": "A-n34-k5",
+  "expected_feasible": true,
+  "stress_case": "none"
+}
