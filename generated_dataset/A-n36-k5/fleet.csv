@@ -1,0 +1,6 @@
+vehicle_id,capacity,start_node_id,depot_node_id,current_edge_id,current_node_id,distance_remaining_m,onboard_request_ids,remaining_load,executed_prefix_edge_ids
+V1,100.0,N0044,N0044,,N0044,0.0,,0.0,
+V2,100.0,N0044,N0044,,N0044,0.0,,0.0,
+V3,100.0,N0044,N0044,,N0044,0.0,,0.0,
+V4,100.0,N0044,N0044,,N0044,0.0,,0.0,
+V5,100.0,N0044,N0044,,N0044,0.0,,0.0,
